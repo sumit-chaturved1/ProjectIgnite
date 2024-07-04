@@ -1,0 +1,226 @@
+#root {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.top-section {
+  max-width: 95%;
+  margin: 0 auto;
+}
+/* fundsData bar start */
+.total-funds-data {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 90%;
+  max-height: 100px;
+  background-color: whitesmoke;
+  display: flex;
+  border-radius: 10px;
+}
+.total-funds-data h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #2c87f7;
+  font-size: 2.4em;
+  font-weight: 800;
+}
+.total-funds-data p {
+  margin-top: 0px;
+  font-size: 1em;
+  font-weight: 500;
+  color: #686868;
+}
+.fund-data-colums {
+  margin: 0 auto;
+  width: 100%;
+}
+.middle-data {
+  border-left: 2px solid #11e6fc;
+  border-right: 2px solid #11e6fc;
+}
+
+/* fundsData bar end */
+
+/* heroSection start */
+.hero-section {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 80% 20%;
+}
+.tagLine-card {
+  text-align: left;
+  height: 100%;
+  width: 100%;
+}
+.tagLine-card h1 {
+  margin: 53px auto;
+  font-size: 3em;
+  width: 90%;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.tagLine-card h2 {
+  margin: 38px auto;
+  font-size: 1.8em;
+  width: 90%;
+  font-weight: 500;
+}
+.start-fundraiser-button {
+  font-size: 200%;
+  font-weight: 900;
+  border-radius: 100px;
+  height: 70%;
+  width: 55%;
+  margin: auto;
+  user-select: none;
+  color: #5e84d5;
+  background-color: whitesmoke;
+}
+.start-fundraiser-button:hover {
+  cursor: pointer;
+}
+.image-card {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  height: 450px;
+  width: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.gradient {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  border-radius: 10px;
+  height: 450px;
+  width: 450px;
+  background-color: black;
+  opacity: 0.1;
+}
+.text-layer {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+  width: 450px;
+}
+.img-txt {
+  margin: 20px;
+  color: white;
+}
+/* imageSection end */
+
+/* browserPage */
+
+.input-wrapper {
+  background-color: white;
+  width: 80%;
+  height: 40px;
+  border: 1px solid rgb(171, 163, 163);
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+.input-wrapper:has(.input-box:focus) {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.search-icon {
+  font-size: 23px;
+  margin: auto;
+  margin-left: 10px;
+}
+.input-box {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.input-box:focus {
+  outline: none;
+}
+
+.no-search-data-found {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+/* browserPage end */
+
+/* DESCRIPTION PAGE */
+.description-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 500px;
+  display: flex;
+}
+.fund-stat {
+  width: 50%;
+}
+.desc-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.founder {
+  font-style: italic;
+  margin-top: 5px;
+  text-align: right;
+}
+.fund-data {
+  width: 50%;
+  padding: 0 50px;
+}
+.fund-title {
+  font-size: 40px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.fund-desc {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.fund-raised-data {
+  margin: 30px 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.fund-raised-text {
+  margin-left: 15px;
+  line-height: 1.3;
+  text-align: left;
+}
+.tax-benefit {
+  border-left: black 1px solid;
+  text-align: left;
+  padding-left: 10px;
+}
+.donate-button {
+  width: 200px;
+  background-color: #60626e;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.donate-button:active {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
